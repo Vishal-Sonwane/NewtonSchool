@@ -1,9 +1,9 @@
-var shape= require('./shape.js'); 
+var shape= require('./Shape.js'); 
 
-class circle extends shape {
+class Circle extends Shape {
     constructor(color){
         super();
     }
     calculateArea(){}
 }
-    module.exports=circle;
+    module.exports=Circle;
