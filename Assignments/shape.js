@@ -1,11 +1,9 @@
 class shape {
-    drawShape(color) {
-        console.log();
-
-
+    constructor(){
+        this.color="green";
     }
-    calculateArea() {
-
-    }
-
+    drawShape() {}
+    calculateArea() {}
 }
+    module.exports=shape;
+
